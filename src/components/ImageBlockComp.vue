@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    
+    IMAGEBLOCK
   </div>
 
 </template>
