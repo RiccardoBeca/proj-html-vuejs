@@ -1,7 +1,6 @@
 <template>
   
   <div>
-    MAIN
     <ImageBlockComp />
     <WorkingProcessComp />
     <WorkWUsComp />
