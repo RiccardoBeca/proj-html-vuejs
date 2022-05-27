@@ -35,7 +35,6 @@ export default {
 @import '../assets/style/_vars.scss';
 @import '../assets/style/_general.scss';
 @import '../assets/style/_utils.scss';
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 p:first-child{
   font-family: 'Raleway', sans-serif;
