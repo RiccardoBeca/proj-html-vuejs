@@ -8,7 +8,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nam eveniet autem natus sint saepe eaque porro facilis? Tenetur, tempora.</p>
             <button>READ MORE</button>
           </div>
-        <div class="col img-container d-flex">
+          <div class="col img-container d-flex">
           <!-- <img class="" src="../assets/img/h-2-slider-img-12.png" alt="">
           <img class="" src="../assets/img/h-2-slider-img-13.png" alt=""> -->
           <!-- <img class="" src="../assets/img/h-2-slider-img-14.png" alt=""> -->
@@ -17,7 +17,7 @@
           <!-- <img class="" src="../assets/img/h-2-slider-img-17.png" alt=""> -->
           <!-- <img class="" src="../assets/img/" alt="">
           <img class="" src="../assets/img/" alt=""> -->
-        </div>
+          </div>
         </div>
        
       </div>
