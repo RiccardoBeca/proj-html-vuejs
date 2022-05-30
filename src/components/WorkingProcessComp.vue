@@ -18,8 +18,27 @@
             <i class="fa-solid fa-pencil"></i>
           </div>
         </div>
+        <div class="container text-center">
+          <div class="row row-cols-4">
+            <div class="col">
+              <h5>First there's an idea</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus suscipit dignissimos autem!</p>
+            </div>
+            <div class="col">
+              <h5>Then we talk about it</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus suscipit dignissimos autem!</p>
+            </div>
+            <div class="col">
+              <h5>And we think about it</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus suscipit dignissimos autem!</p>
+            </div>
+            <div class="col">
+              <h5>So we draw along</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique necessitatibus suscipit dignissimos autem!</p>
+            </div>
+          </div>
+        </div>
       </div>
-  
     </div>
   </div>
 </template>
@@ -41,7 +60,9 @@ h2{
     font-weight: bold;
   }
 }
-
+.icons-wrapper{
+  max-height: 180px;
+}
 .icon{
   width: 100px;
   height: 100px;
@@ -75,6 +96,12 @@ h2{
   transform: translate(1000px, -400px);
   color: #EB6950;
 }
+
+.col{
+  p{
+    color: #A6A6A6
+  }
+} 
   
 
 </style>
