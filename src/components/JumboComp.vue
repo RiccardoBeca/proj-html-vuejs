@@ -54,6 +54,22 @@ p:last-of-type{
   height: 70%;
 }
 
+button{
+  cursor: pointer;
+  padding: 15px 30px;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  border-style: none;
+  border: 4px solid #f5d8ca;
+  background-color: white;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  &:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+  }
+}
+
 
 
 

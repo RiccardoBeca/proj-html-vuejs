@@ -65,7 +65,7 @@ export default {
   width: 200px;
 }
 #cloud-5{
-  transform: translate(800px, 370px);
+  transform: translate(870px, 390px);
   width: 200px;
 }
 
@@ -77,7 +77,19 @@ em{
   font-weight: bold;
 }
 
-
-// button{
-// }
+button{
+  cursor: pointer;
+  padding: 15px 30px;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+  border-style: none;
+  background-color: #d8f0e3;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  &:hover{
+    transition: all .3s ease;
+    background-color: #e0bfaf;
+    color: white;
+  }
+}
 </style>

@@ -71,6 +71,9 @@ export default {
 @import '../assets/style/_general.scss';
 @import '../assets/style/_utils.scss';
 
+.logo{
+  cursor: pointer;
+}
 
 .nav-menu{
   ul{
@@ -79,6 +82,7 @@ export default {
     margin: 0 !important;
   }
   li{
+    cursor: pointer;
     padding: 20px;
   }
   li a{
