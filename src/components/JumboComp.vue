@@ -9,14 +9,14 @@
             <button>READ MORE</button>
           </div>
           <div class="col img-container d-flex">
-          <!-- <img class="" src="../assets/img/h-2-slider-img-12.png" alt="">
-          <img class="" src="../assets/img/h-2-slider-img-13.png" alt=""> -->
-          <!-- <img class="" src="../assets/img/h-2-slider-img-14.png" alt=""> -->
+          <img class="leaf-1" src="../assets/img/h-2-slider-img-12.png" alt="">
+          <img class="leaf-2" src="../assets/img/h-2-slider-img-13.png" alt=""> 
+          <img class="leaf-3" src="../assets/img/h-2-slider-img-14.png" alt=""> 
           <img class="main-img" src="../assets/img/h-2-slider-img-15.png" alt="">
           <img class="main-img" src="../assets/img/h-2-slider-img-16.png" alt="">
-          <!-- <img class="" src="../assets/img/h-2-slider-img-17.png" alt=""> -->
-          <!-- <img class="" src="../assets/img/" alt="">
-          <img class="" src="../assets/img/" alt=""> -->
+          <img class="leaf-4" src="../assets/img/h-2-slider-img-17.png" alt="">
+          <img class="leaf-5" src="../assets/img/short-slider-rev-1-img-2.png" alt="">
+          <img class="leaf-6" src="../assets/img/short-slider-rev-1-img-6.png" alt="">
           </div>
         </div>
        
@@ -70,6 +70,31 @@ button{
   }
 }
 
+.leaf-1{
+  height: 50px;
+  transform: translate(0px,110px);
+}
+.leaf-2{
+  height: 70px;
+  transform: translate(10px, 226px);
+  
+}
+.leaf-3{
+  height: 50px;
+  transform: translate(475px,-56px);
+}
+.leaf-4{
+  height: 100px;
+  transform: translate(15px,200px);
+}
+.leaf-5{
+  transform: translate(-580px,-40px);
+  height: 50px;
+}
+.leaf-6{
+  height: 50px;
+  transform: translate(-125px,25px);
+}
 
 
 
