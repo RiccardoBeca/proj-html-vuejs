@@ -19,7 +19,6 @@
           <img class="leaf-6" src="../assets/img/short-slider-rev-1-img-6.png" alt="">
           </div>
         </div>
-       
       </div>
     </div>
   </div>

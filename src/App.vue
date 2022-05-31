@@ -20,7 +20,7 @@ export default {
     MainComp,
     FooterComp,
     JumboComp
-}
+  }
 }
 </script>
 

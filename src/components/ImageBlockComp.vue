@@ -63,8 +63,6 @@ export default {
 .hover-wrapper:hover .info-tag{
   display: block;
 }
-
-
 .circle-icon{
   cursor: pointer;
   background-color: #EF2853;
@@ -74,7 +72,6 @@ export default {
   top: 755px;
   right: 0;
 }
-
 .shop-icon{
   display: flex;
   justify-content: center;
@@ -88,7 +85,6 @@ export default {
   top: 800px;
   right: 0;
 }
-
 .arrow-up{
   display: flex;
   justify-content: center;

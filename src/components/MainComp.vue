@@ -5,7 +5,6 @@
     <WorkingProcessComp />
     <WorkWUsComp />
     <BlogComp />
-
   </div>
 
 </template>
@@ -18,8 +17,12 @@ import BlogComp from './BlogComp.vue';
 
 export default {
     name: "MainComp",
-    components: { ImageBlockComp, WorkingProcessComp, WorkWUsComp, BlogComp }
-
+    components: { 
+      ImageBlockComp,
+      WorkingProcessComp,
+      WorkWUsComp,
+      BlogComp
+    }
   }
 </script>
 

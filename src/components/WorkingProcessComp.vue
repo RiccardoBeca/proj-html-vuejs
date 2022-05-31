@@ -87,7 +87,6 @@ h2{
   &:hover{
     transform: translate(-20px, -90px) scale(1.3) rotate(360deg);
     transition: all .5s ease-in;
-    
   }
 }
 
@@ -97,7 +96,6 @@ h2{
   &:hover{
     transform: translate(300px, -190px) scale(1.3) rotate(360deg);
     transition: all .5s ease-in;
-    
   }
 }
 
@@ -106,9 +104,7 @@ h2{
   color: #80465F;
   &:hover{
     transform: translate(600px, -330px) scale(1.3) rotate(360deg);
-    // transform: scale(1.1);
     transition: all .5s ease-in;
-    
   }
 }
 
@@ -118,7 +114,6 @@ h2{
   &:hover{
     transform: translate(1000px, -400px) scale(1.3) rotate(360deg);
     transition: all .5s ease-in;
-    
   }
 }
 
