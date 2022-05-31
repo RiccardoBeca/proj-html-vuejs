@@ -39,6 +39,9 @@
           </div>
         </div>
       </div>
+      <div class="arrow-up">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23"><path fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M10 21.5v-19"/><path fill="#FFF" d="M3.926 7.484c-.388-.404-.388-.801 0-1.188L9.419.803c.14-.176.334-.264.58-.264s.44.088.582.264l5.493 5.493c.387.388.387.784 0 1.188-.389.405-.775.396-1.162-.026L9.999 2.599 5.088 7.458c-.388.422-.775.432-1.162.026z"/></svg>
+      </div>
     </div>
   </div>
 </template>
@@ -76,25 +79,47 @@ h2{
     align-self: center;
     line-height: 100px;
   }
+  
 }
 .lightbulb.icon{
   transform: translate(-20px, -90px);
   color: #BADAC9;
+  &:hover{
+    transform: translate(-20px, -90px) scale(1.3) rotate(360deg);
+    transition: all .5s ease-in;
+    
+  }
 }
 
 .message.icon{
   transform: translate(300px, -190px);
   color:#F8D12D;
+  &:hover{
+    transform: translate(300px, -190px) scale(1.3) rotate(360deg);
+    transition: all .5s ease-in;
+    
+  }
 }
 
 .cloud.icon{
   transform: translate(600px, -330px);
   color: #80465F;
+  &:hover{
+    transform: translate(600px, -330px) scale(1.3) rotate(360deg);
+    // transform: scale(1.1);
+    transition: all .5s ease-in;
+    
+  }
 }
 
 .pen.icon{
   transform: translate(1000px, -400px);
   color: #EB6950;
+  &:hover{
+    transform: translate(1000px, -400px) scale(1.3) rotate(360deg);
+    transition: all .5s ease-in;
+    
+  }
 }
 
 .col{
@@ -102,6 +127,20 @@ h2{
     color: #A6A6A6
   }
 } 
+
+.arrow-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D8F0E3;
+  cursor: pointer;
+  padding: 5px;
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  top: 2395px;
+  right: 15px;
+}
   
 
 </style>
